@@ -39,6 +39,10 @@ const controlRecipes = async function () {
   }
 };
 
+const test = function () {
+  console.log(`test`);
+};
+
 const controlSearchResults = async function () {
   try {
     resultsView.renderSpinner();
